@@ -5,7 +5,7 @@ from models import Jogo, Usuario
 import os, time
 
 app = Flask(__name__)
-app.secret_key = 'alura'
+app.secret_key = 'palavra_seguranca'
 
 app.config['MYSQL_HOST'] = "localhost"
 app.config['MYSQL_USER'] = "root"
